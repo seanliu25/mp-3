@@ -7,18 +7,28 @@ export default function Calculator() {
 
   const initialState = { result: "" };
 
-  function reducer(state, action) {
+  type State = {
+    result: string | number;
+  };
+  
+  type Action = {
+    type: string;
+    first?: string;
+    second?: string;
+  };
+  
+  function reducer(state: State, action: Action): State {
     const num1 = parseFloat(action.first || "0");
     const num2 = parseFloat(action.second || "0");
-
+  
     if (action.type === "clear") {
-      return initialState; 
+      return { result: "" };
     }
-
+  
     if (isNaN(num1) || isNaN(num2)) {
       return { result: "Invalid Input" };
     }
-
+  
     switch (action.type) {
       case "add":
         return { result: num1 + num2 };
@@ -34,7 +44,6 @@ export default function Calculator() {
   }
 
   const [state, dispatch] = useReducer(reducer, initialState);
-
 
   const handleClear = () => {
     setFirst("");

@@ -1,4 +1,4 @@
-import { STYContainer, STYMainContent } from "./mystyle";
+import { STYMainContent } from "./mystyle";
 
  function Research() {
   return (

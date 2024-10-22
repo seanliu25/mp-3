@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, RouterProvider, Routes, createBrowserRouter } from "react-router-dom";
 import {STYContainer, STYBody} from "./assets/components/mystyle"; 
 
@@ -22,10 +21,9 @@ import Achievement from "./assets/components/achievement";
 const Root = () => {
   return (
     <STYBody>
-      {/* <GlobalStyles />  */}
       <Header />
-      <STYContainer> {/* Styled container to wrap navigation and content */}
-        <Navigation /> {/* Reuse existing Navigation component */}
+      <STYContainer> 
+        <Navigation /> 
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/project" element={<Project />} />

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import { STYContainer, STYMainContent, STYNavigationContainer } from "./mystyle";
+import {STYNavigationContainer } from "./mystyle";
 
 export default function Navigation() {
     return (
