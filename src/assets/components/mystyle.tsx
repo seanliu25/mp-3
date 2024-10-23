@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const STYBody = styled.div`
+export const STYBody = styled.body`
   font-family: Arial, sans-serif;
   background-color: #1e1e1e;
   color: #fff;
@@ -10,10 +10,10 @@ export const STYBody = styled.div`
 `;
 
 export const STYHEADER = styled.header`
-    text-align: left; /* Align left for larger screens */
-    background-color: #222;
-    color: white;
-    padding: 20px;
+  text-align: left; /* Align left for larger screens */
+  background-color: #222;
+  color: white;
+  padding: 20px;
 
   @media screen and (max-width: 750px) {
     padding: 15px;
@@ -89,12 +89,14 @@ export const STYMainContent = styled.main`
   background-color: #222;
   color: white;
   max-height: auto;
+  font-size: 18px;
 
   @media screen and (max-width: 750px) {
     width: 100%;
     padding: 10px;
     text-align: center;
     max-height: auto;
+    font-size: 14px;
   }
 `;
 
