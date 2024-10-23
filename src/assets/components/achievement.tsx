@@ -3,7 +3,7 @@ import Main from "./main";
 function Achievement() {
   return (
       <Main>
-        <h2>Achievements</h2>
+        <h2>Achievements</h2><br/>
         <ul>
             <li><strong>Hackathon Achievement</strong>: Secured 5th place out of 53 teams in a coding hackathon at Penn State University, showcasing Python proficiency and problem-solving skills.</li><br/>
             <li><strong>AI Chatbot Development</strong>: Successfully developed and integrated an AI chatbot for simtwin.co, enhancing customer interactions and support functionalities.</li><br/>

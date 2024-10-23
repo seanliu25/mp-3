@@ -4,7 +4,7 @@ import {STYMainContent } from "./mystyle";
   return (
     <>
           <STYMainContent>
-            <h2>Work-Experience</h2>
+            <h2>Work-Experience</h2><br/>
             <ul>
                 <li><strong>Web-Based Artificial Intelligence Development Intern - Paranvous, Los Angeles, CA (2024 - Present)</strong>
                         <ul>

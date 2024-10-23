@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+
+
 export const STYBody = styled.div`
   font-family: Arial, sans-serif;
   background-color: #1e1e1e;
@@ -8,18 +10,15 @@ export const STYBody = styled.div`
 `;
 
 export const STYHEADER = styled.header`
-  background-color: #222;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+    text-align: left; /* Align left for larger screens */
+    background-color: #222;
+    color: white;
+    padding: 20px;
 
   @media screen and (max-width: 750px) {
     padding: 15px;
+    text-align: center;
     font-size: calc(10px + 1vw);
-    word-wrap: break-word;
   }
 `;
 
@@ -41,7 +40,7 @@ export const STYContainer = styled.div`
 
 // Navigation container styles
 export const STYNavigationContainer = styled.nav`
-  width: 20%;
+  width: 30%;
   padding: 20px;
   background-color: #333;
   height: 100vh;
@@ -86,7 +85,7 @@ export const STYNavigationContainer = styled.nav`
 export const STYMainContent = styled.main`
   flex: 1;
   padding: 20px;
-  width: 80%;
+  width: 70%;
   background-color: #222;
   color: white;
   max-height: auto;

@@ -6,7 +6,7 @@ import Calculator from "./calcu";
   return (
         <STYMainContent>
             <div>
-                <h2>Projects</h2>
+                <h2>Projects: </h2>
                 <ul>
                     <li><strong>Personal Web Financial Data Analytics </strong> - Boston, MA (2023 - 2024)
                         <ul>

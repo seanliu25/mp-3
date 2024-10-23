@@ -1,22 +1,13 @@
 import { useReducer, useState } from "react";
 import { STYCalcu } from "./mystyle";
+import { State, Action } from "./type";
 
 export default function Calculator() {
   const [first, setFirst] = useState(""); 
   const [second, setSecond] = useState(""); 
 
-  const initialState = { result: "" };
+  const initialState: State = { result: "" }; // please refer to type.tsx to check for type
 
-  type State = {
-    result: string | number;
-  };
-  
-  type Action = {
-    type: string;
-    first?: string;
-    second?: string;
-  };
-  
   function reducer(state: State, action: Action): State {
     const num1 = parseFloat(action.first || "0");
     const num2 = parseFloat(action.second || "0");

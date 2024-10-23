@@ -5,7 +5,7 @@ import { STYMainContent } from "./mystyle";
 function Skill() {
   return (
       <STYMainContent>
-                <h2>Skills</h2>
+                <h2>Skills</h2><br/>
                  
                 <ul>
                     <li>Web Development: Proficient in building responsive and dynamic web applications using HTML, CSS, and JavaScript.</li><br/>
@@ -17,7 +17,7 @@ function Skill() {
                     <li>Testing and Debugging: Experience with testing, debugging, and refining code to ensure smooth functionality and performance.</li><br/>
                 </ul>
                
-                <h2>Tools</h2> 
+                <h2>Tools</h2><br/>
                 <ul>
                     <li>Programming Languages: Java, Python, JavaScript, TypeScript, SQL.</li><br/>
                     <li>Web Technologies: HTML, CSS, JavaScript, React, Angular, Chart.js.</li><br/>

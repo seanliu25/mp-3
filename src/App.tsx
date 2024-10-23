@@ -17,6 +17,7 @@ import WorkExperience from "./assets/components/work-experience";
 import Research from "./assets/components/research";
 import Skill from "./assets/components/skill";
 import Achievement from "./assets/components/achievement";
+import Credit from "./assets/components/credit";
 
 const Root = () => {
   return (
@@ -31,6 +32,7 @@ const Root = () => {
           <Route path="/research" element={<Research />} />
           <Route path="/skill" element={<Skill />} />
           <Route path="/achievement" element={<Achievement />} />
+          <Route path="credit" element={<Credit />}/>
         </Routes>
       </STYContainer>
       <Footer />
